@@ -1,6 +1,7 @@
-// originally based on Super Big Tree's
+// based on Super Big Tree
 // http://superbigtree.tumblr.com/post/59519017137/introduction-to-grunt-js-and-npm-scripts-and-choosing
-
+// and Backbone Boilerplate
+// https://github.com/backbone-boilerplate/backbone-boilerplate/blob/master/Gruntfile.js
 module.exports = function(grunt) {
   grunt.initConfig({
 
