@@ -1,4 +1,4 @@
-backbone-browserify-grunt-boilerplate
+B-3
 =====================================
 
-A boilerplate for working with Backbone, Browserify, and Grunt
+A boilerplate for working with Backbone, Browserify, Bower, and Grunt
