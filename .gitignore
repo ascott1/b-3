@@ -1,0 +1,13 @@
+## generic files
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+# packages
+/lib/
+/node_modules/
+
+## project dist
+/dist/
