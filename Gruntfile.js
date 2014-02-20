@@ -16,8 +16,8 @@ module.exports = function(grunt) {
 
     browserify: {
       all: {
-        src: 'app.js',
-        dest: 'dist/app.js'
+        src: 'assets/js/app.js',
+        dest: 'dist/assets/js/app.js'
       },
       options: {
         transform: ['debowerify']
@@ -36,11 +36,6 @@ module.exports = function(grunt) {
     watch: {
       options: {
         livereload: true
-      },
-
-      html: {
-        files: '<%= ejs.all.src %>',
-        tasks: ['ejs'],
       },
 
       js: {
