@@ -11,3 +11,4 @@ This project was a learning experiment. Many of the ideas are based on those fou
 - [backboneboilerplate](https://github.com/thomasdavis/backboneboilerplate)
 - [learn.js](http://learnjs.io/)
 - [Boilerplate Web App](http://kroltech.com/2013/12/boilerplate-web-app-using-backbone-js-expressjs-node-js-mongodb/)
+- [backbonify-demo](https://github.com/morganrallen/backbonify-demo)
