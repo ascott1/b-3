@@ -1,7 +1,3 @@
-var Backbone = require('backbone');
-var $ = require('jquery');
-Backbone.$ = $;
+var AppView = require('./app-view');
 
-var Place = require('./models/place');
-
-console.log(new Place().get('name'));
+var appView = new AppView();
