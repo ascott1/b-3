@@ -1,16 +1,18 @@
-var Backbone = require('backbone');
 var $ = require('jquery');
-var headerTemplate = require('templates/title.html');
+var _ = require('underscore');
+var Backbone = require('backbone');
 Backbone.$ = $;
 
 module.exports = Backbone.View.extend({
-  el: $('body'),
+  el: '#main',
+  template: _.template('Hello'),
 
   initialize: function(){
     this.render();
   },
 
   render: function(){
-    $(this.el).prepend(headerTemplate);
+    $(this.el).html(this.template);
+    return this;
   }
 });
