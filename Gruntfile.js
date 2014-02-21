@@ -20,7 +20,7 @@ module.exports = function(grunt) {
         dest: 'dist/assets/js/app.js'
       },
       options: {
-        transform: ['debowerify']
+        transform: ['debowerify', 'hbsfy']
       }
     },
 
@@ -39,7 +39,7 @@ module.exports = function(grunt) {
       },
 
       js: {
-        files: '<%= browserify.all.src %>',
+        files: ['<%= browserify.all.src %>', 'assets/js/views/templates/*.hbs'],
         tasks: ['browserify'],
       },
 
